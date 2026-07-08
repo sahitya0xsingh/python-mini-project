@@ -34,7 +34,8 @@ function getProjectHTML(projectName) {
         'fourier-series': getFourierSeriesHTML(),
         'merge-sort': getMergeSortHTML(),
         'pathfinding-visualizer': getPathfindingVisualizerHTML(),
-        'tsp-visualizer': getTspVisualizerHTML()
+        'tsp-visualizer': getTspVisualizerHTML(),
+        'chess': getChessHTML()
     };
     
     return projects[projectName] || '<h2>Project Coming Soon!</h2>';
